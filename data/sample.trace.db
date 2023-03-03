@@ -1,0 +1,4 @@
+2021-09-18 10:21:50 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Tabla "STUDENT" no encontrada
+Table "STUDENT" not found; SQL statement:
+insert into student (id, email, first_name, last_name) values (null, ?, ?, ?) [42102-200]
